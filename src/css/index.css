@@ -807,13 +807,21 @@ body, html{
 	}
 
 	.second--canvas .content {
-		font-size: 2.5em;
+		font-size: 2em;
 		top: 50%;
 		transform: translateY(-50%);
 	}
 
+	.second--canvas .content h2:nth-child(1) {
+		transform: rotate(-90deg) translateX(-1em);
+	}
+
 	.second--canvas .content h2:nth-child(2) {
-		transform: translateX(1em);
+		transform: translateX(0);
+	}
+
+	.second--canvas .content h2:nth-child(3) {
+		transform: rotate(0deg) translateY(1.5em);
 	}
 
 	.third--canvas .center--line h1 {
