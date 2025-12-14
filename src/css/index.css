@@ -766,68 +766,76 @@ body, html{
 	}
 }
 
-/* Mobile responsiveness for 430px width */
+/* Mobile responsiveness for devices up to 430px width */
 @media (max-width: 430px) {
 	.slide--content {
-		padding: 2em;
+		padding: 1em;
 	}
 
 	.first--slide .slide--content h1 {
-		font-size: 4em;
+		font-size: 3em;
 	}
 
 	.first--slide .slide--content h2 {
-		font-size: 2.5em;
-		top: -1em;
+		font-size: 2em;
+		top: -0.5em;
 	}
 
 	.slide--content--one h1.first {
-		font-size: 4em;
+		font-size: 3em;
 	}
 
 	.slide--content--one h2.first,
 	.slide--content--one h2.second {
-		font-size: 3em;
-	}
-
-	.slide--content--one h1.second {
-		font-size: 4em;
-		top: 2em;
-	}
-
-	.circle--stuff {
-		width: 300px;
-		height: 300px;
-	}
-
-	.circle--stuff svg {
-		width: 200px;
-		height: 33px;
-		top: 5em;
-	}
-
-	.third--canvas .center--line h1 {
 		font-size: 2em;
 	}
 
-	.star--bg img {
-		width: 50px;
-		height: auto;
+	.slide--content--one h1.second {
+		font-size: 3em;
+		top: 1em;
 	}
 
-	.third--canvas .center--line img {
-		width: 50px;
-		height: auto;
+	.circle--stuff {
+		width: 250px;
+		height: 250px;
+	}
+
+	.circle--stuff svg {
+		width: 150px;
+		height: 25px;
+		top: 4em;
 	}
 
 	.second--canvas .content {
-		font-size: 3em;
+		font-size: 2.5em;
 		top: 50%;
 		transform: translateY(-50%);
 	}
 
 	.second--canvas .content h2:nth-child(2) {
-		transform: translateX(2em);
+		transform: translateX(1em);
+	}
+
+	.third--canvas .center--line h1 {
+		font-size: 1.5em;
+	}
+
+	.star--bg img {
+		width: 40px;
+		height: auto;
+	}
+
+	.third--canvas .center--line img {
+		width: 40px;
+		height: auto;
+	}
+
+	.third--canvas .center--line img#bl--left {
+		left: 1em;
+	}
+
+	.third--canvas .center--line img#bl--right {
+		right: 1em;
 	}
 
 	/* Adjust other elements as needed */
